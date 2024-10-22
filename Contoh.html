@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(255, 242, 226);">
+    <header style="text-align: center;"><h2>Formulir Data Diri</h2></header>
+    <main>
+        <form action="submit" name="regristrasi" method="post">
+            <label for="namalengkap">Nama Lengkap</label>
+            <input type="text" name="namalengkap" id="namalengkap" style="margin-left: 48px;"> <br>
+            <p>
+            <label for="tgllahir">Tanggal Lahir</label>
+            <input type="text" name="tgllahir" id="tgllahir" value="2000-01-01" min="2000-01-01" max="2024-12-31" style="margin-left: 53px;">
+            <label for="jeniskelamin" style="margin-left: 75px;">Jenis Kelamin</label>
+            <select name="jeniskelamin" id="jeniskelamin">
+                <option value="L">Laki-Laki</option>
+                <option value="P">Perempuan</option>
+            </select>
+            </p>
+            <p>
+            <label for="asalsekolah">Asal Sekolah</label>
+            <select name="asalsekolah" id="asalsekolah" style="margin-left: 58px;">
+                <option value="1">SMKN 1 BANYUWANGI</option>
+                <option value="2">SMKN 1 GLAGAH</option>
+                <option value="3">SMAN 1 BANYUWANGI</option>
+                <option value="4">SMAN 1 GIRI</option>
+            </select>
+            <label for="kelas" style="margin-left: 86px;">Kelas</label>
+            <input type="text" name="kelas" id="kelas" style="margin-left: 20px;">
+            </p>
+            <p>
+            <label for="alamat">Alamat</label>
+            <textarea name="alamat" id="alamat" cols="21" rows="4" style="margin-left:98px;"></textarea>
+            </p>
+            <label for="notlpn">No. Telpon</label>
+            <input type="text" name="notlpn" id="notlpn" style="margin-left: 73px;"><br><br>
+            <label for="namaortu">Nama Orangtua</label>
+            <input type="text" name="namaortu" id="namaortu" style="margin-left: 43px;"><br><br>
+            <label for="pekerjaanortu">Pekerjaan Orang Tua</label>
+            <input type="text" name="pekerjaanortu" id="pekerjaanortu" style="margin-left: 9px;"><br><br>
+            <label for="programkursus">Program Kursus</label>
+            <input type="text" name="programkursus" id="programkursus" style="margin-left: 39px;"><br><br>
+            <p>
+                <label for="harikursus">Hari Kursus</label>
+                <input type="checkbox" name="harikursus1" id="harikursus1" value="Senin&Kamis" style="margin-left: 65px;">
+                <label for="harikursus1">Senin & Kamis</label>
+                <input type="checkbox" name="harikursus2" id="harikursus2" value="Selasa&Jumat">
+                <label for="harikursus2">Selasa & Jumat</label>
+                <input type="checkbox" name="harikursus3" id="harikursus3" value="Rabu&Sabtu">
+                <label for="harikursus3">Rabu & Sabtu</label>
+            </p>
+            <p>
+                <label for="waktukursus">Waktu Kursus</label>
+                <input type="checkbox" name="jam1" id="jam1" value="14.00-15.30" style="margin-left: 51px;">
+                <label for="jam1">14.00-15.30</label>
+                <input type="checkbox" name="jam2" id="jam2" value="16.00-17.30" style="margin-left: 26px;">
+                <label for="jam2">16.00-17.30</label>
+                <input type="checkbox" name="jam3" id="jam3" value="19.00-20.30" style="margin-left: 26px;">
+                <label for="jam3">19.00-20.30</label>
+            </p>
+            
+
+
+        </form>
+    </main>
+</body>
+</html>
